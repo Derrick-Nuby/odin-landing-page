@@ -8,4 +8,4 @@ This is a project I did to test my skills in HTML and CSS I did it as a part of 
 
 ## Output-Live Site
 
-The Live site can be found by clicking here [AquaLux Landing Page](https://github.com/Derrick-Nuby)
+The Live site can be found by clicking here [AquaLux Landing Page](https://derrick-nuby.github.io/odin-landing-page/)
