@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+:root {
+    --darkbg: #1F2937;
+    --herotext: #F9FAF8;
+    --herosectext: #E5E7EB;
+    --buttoncallcolor: #3882F6;
+}
+
+/* the head which contains menu and logo */
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--darkbg);
+    padding: 20px 90px;
+}
+
+/* menu items */
+.menu_items {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.menu_items li {
+    list-style: none;
+}
+
+.menu_items li a {
+    color: var(--herosectext);
+    text-decoration: none;
+}
+
+.menu_items li a:hover {
+    color: var(--buttoncallcolor);
+        font-size: 20.2px;
+        transition: 200ms;
+}
+
+/* logo designs */
+
+.logo a {
+    font-size: 24px;
+    color: var(--herotext);
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.logo > a:hover {
+    color: var(--buttoncallcolor);
+    font-size: 24.2px;
+    transition: 200ms;
+}
+
+/* end of the head section which contains menu and logo */
+
+/* section 1 hero section */
+
+.hero_section {
+    background-color: var(--darkbg);
+    display: flex;
+    gap: 30px;
+    padding: 0px 70px 80px 70px;
+}
+
+.main_hero_text {
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--herotext);
+    padding: 100px 0px 30px 0px;
+}
+
+.secondary_text {
+    font-size: 18px;
+    color: var(--herosectext);
+    padding: 0px 100px 30px 0px;
+}
+
+.shop_btn {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 7px;
+    color: var(--herosectext);
+    background-color: var(--buttoncallcolor);
+    font-weight: 500;
+}
+
+.shop_btn:hover {
+    cursor: pointer;
+    color: var(--buttoncallcolor);
+    background-color: var(--herosectext);
+    transition: 700ms;
+}
+
+.hero_image > img {
+    padding-top: 80px;
+    height: 440px;
+}
+
+/* section 2 of features  */
+
+.feature_txt {
+    color: var(--darkbg);
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 90px 30px 90px;
+}
+
+.boxes {
+    width: 250px;
+    text-align: center;
+}
+
+.boxes > img {
+    width: 250px;
+    border: 3px solid var(--buttoncallcolor);
+    border-radius: 7px;
+}
+
+.stitle {
+    font-weight: 600;
+    padding: 10px 0px;
+}
+
+/* quote section */
+
+.quote {
+    background-color: var(--herosectext);
+    padding: 100px 100px 100px 350px;
+}
+
+.quote_txt {
+    font-style: italic;
+    font-size: 36px;
+    color: var(--darkbg);
+
+}
+
+.review_name {
+    font-weight: 900;
+    font-size: 24px;
+    padding-top: 20px;
+    text-align: right;
+    color: var(--darkbg);
+    padding-right: 70px;
+}
+
+/* call to actions */
+
+.texts {
+    background-color: var(--buttoncallcolor);
+    padding: 50px;
+    margin: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.big_text {
+    font-weight: 500;
+    color: var(--herotext);
+    font-size: 24px;
+}
+
+.small_text {
+    color: var(--herosectext);
+    font-size: 16px;
+    padding-top: 7px;
+}
+
+.sign_up {
+    border: 3px solid var(--herotext);
+    background-color: transparent;
+    padding: 5px 30px;
+    border-radius: 10px;
+    color: var(--herotext);
+    font-weight: bold;
+}
+
+.sign_up:hover {
+    border-color: var(--darkbg);
+    cursor: pointer;
+    color: var(--darkbg);
+    transition: 400ms;
+}
+
+footer {
+    background-color: var(--darkbg);
+    color: var(--herotext);
+    font-size: 16px;
+    text-align: center;
+    padding: 30px 0px;
+}
